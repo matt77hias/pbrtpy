@@ -335,36 +335,3 @@ class RegularGrid(Aggregate):
                     v2 = v1.copy()
                     v2[1] = self.bounds.pMax[1]
                     Line(v1, v2, color=self.color).accept(visitor)
-                    
-    def ARDH_p(self, C):
-        ac = 0
-    
-        cell_min = np.zeros((3), dtype=int)
-        cell_max = np.zeros((3), dtype=int)
-        for axis in range(3):
-            cell_min[axis] = self._cell(C.pMin, axis)
-            cell_max[axis] = self._cell(C.pMax, axis)
-    
-        cell_count = 0
-        for x in range(cell_min[0], cell_max[0]+1):
-            for y in range(cell_min[1], cell_max[1]+1):
-                for z in range(cell_min[2], cell_max[2]+1):
-                    cell_count += 1
-                    cell = self.cells[x,y,z]
-                    # Interior rays
-                    ac += cell.access_count[6]
-                    # Exterior rays
-                    if x == cell_min[0]:    #Enter via yz_min
-                        ac += cell.access_count[0]
-                    if x == cell_max[0]:    #Enter via yz_max
-                        ac += cell.access_count[1]
-                    if y == cell_min[1]:    #Enter via xz_min
-                        ac += cell.access_count[2]
-                    if y == cell_max[1]:    #Enter via xz_max
-                        ac += cell.access_count[3]
-                    if z == cell_min[2]:    #Enter via xy_min
-                        ac += cell.access_count[4]
-                    if z == cell_max[2]:    #Enter via xy_max
-                        ac += cell.access_count[5]
-    
-        return ((ac / float(self.access_count)), cell_count != 1)
