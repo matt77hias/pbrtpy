@@ -1,6 +1,6 @@
 # pbrtpy
 
-## Use
+## About
 A Python subset of [pbrt-v2](https://github.com/mmp/pbrt-v2) focussing only on geometry (i.e. no materials).
 
 ## Use
