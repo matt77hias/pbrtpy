@@ -1,8 +1,9 @@
 # pbrtpy
-Python subset of pbrt 
 
-Use
---------
+## Use
+A Python subset of [pbrt-v2](https://github.com/mmp/pbrt-v2) focussing only on geometry (i.e. no materials).
+
+## Use
 <p align="center"><img src="https://github.com/matt77hias/pbrtpy/blob/master/res/pbrtpy.png" width="430"><img src="https://github.com/matt77hias/pbrtpy/blob/master/res/Wireframe Film.png" width="430"></p>
 
 ```python
@@ -11,9 +12,7 @@ from pbrtpy import test
 test()
 ```
 
-Extra Features
-----------------
-
+## Extra Features
 * Basic .obj parser
 * Scene generators
 * Multi Film support: <code>MultiFilm</code>
