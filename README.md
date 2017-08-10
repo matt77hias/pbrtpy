@@ -4,7 +4,10 @@
 A Python subset of [pbrt-v2](https://github.com/mmp/pbrt-v2) focussing only on geometry (i.e. no materials are currently supported).
 
 ## Use
-<p align="center"><img src="https://github.com/matt77hias/pbrtpy/blob/master/res/pbrtpy.png" width="430"><img src="https://github.com/matt77hias/pbrtpy/blob/master/res/Wireframe Film.png" width="430"></p>
+<p align="center">
+<img src="res/pbrtpy.png" width="430">
+<img src="res/Wireframe Film.png" width="430">
+</p>
 
 ```python
 from pbrtpy import test
