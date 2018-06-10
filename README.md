@@ -1,7 +1,7 @@
 # pbrtpy
 
 ## About
-A Python subset of [pbrt-v2](https://github.com/mmp/pbrt-v2) focussing only on geometry (i.e. no materials are currently supported).
+A Python subset of [pbrt-v2](https://github.com/mmp/pbrt-v2) focussing only on geometry (i.e. no materials for surfaces and volumes are currently supported).
 
 ## Use
 <p align="center">
