@@ -23,6 +23,6 @@ test()
 ## Extra Features
 * Basic .obj parser
 * Scene generators
-* Multi Film support: <code>MultiFilm</code>
-* False Color support (good for debugging and optimizing): <code>FalseColorFilm</code>
-* Wireframe Rendering (good for debugging): <code>WireframeRenderer</code> and <code>WireframeFilm</code>
+* Multi Film support: `MultiFilm`
+* False Color support (good for debugging and optimizing): `FalseColorFilm`
+* Wireframe Rendering (good for debugging): `WireframeRenderer` and `WireframeFilm`
