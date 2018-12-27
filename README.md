@@ -26,3 +26,6 @@ test()
 * Multi Film support: `MultiFilm`
 * False Color support (good for debugging and optimizing): `FalseColorFilm`
 * Wireframe Rendering (good for debugging): `WireframeRenderer` and `WireframeFilm`
+
+## Bibliography
+PHARR M., HUMPHREYS: *Physically Based Rendering: From Theory to Implementation*, 2nd Edition, Morgan Kaufmann, 2010.
