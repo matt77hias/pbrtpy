@@ -10,8 +10,8 @@ A Python subset of [pbrt-v2](https://github.com/mmp/pbrt-v2) focussing only on g
 
 ## Use
 <p align="center">
-<img src="res/pbrtpy.png" width="429">
-<img src="res/Wireframe Film.png" width="429">
+<img src="res/pbrtpy.png" width="410">
+<img src="res/Wireframe Film.png" width="410">
 </p>
 
 ```python
